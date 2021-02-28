@@ -768,7 +768,7 @@ opacity: 1;
 @media (max-width: 1200px) and (min-width:901px) { /* <- 4-3  hexagons per row */
 #hexGrid{
   padding-bottom: 5.5%;
-  font-size: 11px;
+  font-size: 13px;
 }
 .hex {
   width: 25%; /* = 100 / 4 */
@@ -778,7 +778,7 @@ opacity: 1;
 }
 }
 
-@media (max-width: 900px) and (min-width:701px) { /* <- 3-2  hexagons per row */
+@media (max-width: 900px) and (min-width:601px) { /* <- 3-2  hexagons per row */
   #hexGrid{
     padding-bottom: 7.4%;
     font-size: 11px;
@@ -791,7 +791,7 @@ opacity: 1;
   }
 }
 
-@media (max-width: 700px) { /* <- 2-1  hexagons per row */
+@media (max-width: 600px) { /* <- 2-1  hexagons per row */
   #hexGrid{
     padding-bottom: 11.2%;
     font-size: 12px;
@@ -1123,9 +1123,26 @@ opacity: 1;
   height: 12rem;
   background-color: #000;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 0 10rem;
+}
+
+.footer-left {
+  display: flex;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #aaa9ad;
+}
+
+.footer i {
+  font-size: 4rem;
+  color: #dc9778;
+  padding: 0.5rem;
 }
 
 .copyright {
