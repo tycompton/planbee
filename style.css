@@ -28,7 +28,7 @@ body {
   position: fixed;
   top: -8rem;
   z-index: 10;
-  padding: 3rem;
+  padding: 1rem 3rem;
   transition: height 0.5s;
   animation: animateNavbar 2s ease 5s forwards;
 }
@@ -489,7 +489,6 @@ body {
   height:114.3154px;
   z-index: 2;
   background: inherit;
-  /* color: #fff; */
   color: #dc9778;
   width: 100%;
   display: flex;
@@ -639,7 +638,7 @@ opacity: 1;
 }
 
 #demo1 {
-color: #fff;
+color: #dc9778;
 text-transform: capitalize;
 text-align: center;
 bottom: 50%;
@@ -664,7 +663,7 @@ text-align:center;
 top: 50%;
 text-align: center;
 text-transform: uppercase;
-font-weight: 600;
+font-weight: 400;
 font-size: 1.3rem;
 color: #fff;
   
@@ -799,7 +798,7 @@ opacity: 1;
 
 .bio {
   color: silver;
-  font-size: 1.6rem;
+  font-size: 1.75rem;
   text-align: justify;
 }
 
@@ -843,10 +842,8 @@ opacity: 1;
 
 .testimonials {
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   flex-direction: row;
-
   justify-content: space-evenly;
   margin-top: 5rem;
 }
@@ -914,7 +911,7 @@ opacity: 1;
   background-color: #000;
   color: silver;
   border: 1px solid #fff;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
 }
 
 .flip-card-front-left {
@@ -935,6 +932,8 @@ opacity: 1;
   border: 1px solid #fff;
   text-align: center;
   padding: 10px;
+  font-size: 1.75rem;
+  overflow: auto;
 } 
 /** End of Section 4 **/
 
