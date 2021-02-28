@@ -538,7 +538,7 @@ body {
 
 /** Shining Text Animation **/
 #strapline {
-  position: relative;
+  position: absolute;
   text-transform: uppercase;
   font-size: 2.8em;
   opacity: 0;
@@ -546,10 +546,19 @@ body {
   background: linear-gradient(90deg, #000, #dc9778, #000);
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 4s ease 5s forwards;
+  animation: animate 4s ease 5s;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 } 
+
+#strapline2 {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 2.8em;
+  color: #dc9778;
+  opacity: 0;
+  animation: animate2 1s ease-in 7s forwards;
+}
 
 @keyframes animate {
   0% {
@@ -558,6 +567,15 @@ body {
   }
   100% {
     background-position: 500%;
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 /** Shining Text Animation End **/
