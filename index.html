@@ -101,7 +101,7 @@
             <a class="hexLink" href="#">
               <div class='img' style='background-image: url(images/Honeycomb.png);'></div>
               <h1 id="demo1">Admin</h1>
-              <p id="demo2">Minute Taking<br>Contract & Subscriptions<br>Manual Implementing</p>
+              <p id="demo2">Minute Taking<br>Contracts & Subscriptions<br>Manual Implementing</p>
             </a>
           </div>
         </li>
@@ -323,11 +323,13 @@
       </div>
     </div>
     <h1>Contact me to discuss your business needs. Whether you require assistance by the day, half day or hour, it's about making it work for YOU</h1>
-    <form method="POST" name="contact" data-netlify="true" class="contact-form">
+    <!-- <form method="POST" name="contact" data-netlify="true" class="contact-form"> -->
+    <!-- <form action="mailto:tyrone.compton@gmail.com" method="POST" name="EmailForm" enctype="multipart/form-data" class="contact-form"> -->
+    <form action="https://formspree.io/f/meqpbgre" method="POST" class="contact-form">
       <input type="text" id="name" name="Name" placeholder="Your Name" required>
       <input type="email" id="email" name="Email" placeholder="Your Email" required>
-      <textarea name="Subject" id="message" cols="30" rows="5" placeholder="Your Message"></textarea>
-      <input type="submit" value="Send Message">
+      <textarea name="Subject" id="message" cols="30" rows="5" placeholder="Your Message" required></textarea>
+      <input type="submit" value="Send">
     </form>
   </div>
 </section>
