@@ -593,6 +593,19 @@ body {
   padding: 5rem 0;
 }
 
+.services {
+  margin: 5rem 10rem 0 10rem;
+  color: silver;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+@media (min-width: 500px) {
+  .services {
+    font-size: 1.75rem;
+  }
+}
+
 .grid {
   margin-top: 5rem;
 }
