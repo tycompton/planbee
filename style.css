@@ -5,6 +5,7 @@
   outline: none;
   text-decoration: none;
   list-style: none;
+  /* font-family: 'Peddana', serif; */
   font-family: 'Roboto', sans-serif;
 }
 
@@ -152,7 +153,7 @@ body {
 
 /***** Section 1 Splash Page *****/
 .section-1 {
-  /* height: 100vh; */
+  height: 100vh;
   width: 100%;
   margin: 0 auto;
   padding: 5rem 0;
