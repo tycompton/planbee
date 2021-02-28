@@ -292,7 +292,6 @@ body {
   height:114.3154px;
   z-index: 2;
   background: inherit;
-  /* color: #fff; */
   color: #dc9778;
   width: 100%;
   display: flex;
@@ -1090,17 +1089,6 @@ opacity: 1;
   align-items: center;
   padding: 0 10rem;
 }
-
-/* .footer-nav a {
-  font-size: 1.7rem;
-  color: #aaa9ad;
-  margin-right: 3rem;
-  transition: color 0.3s;
-} */
-
-/* .footer-nav a:hover {
-  color: #dc9778;
-} */
 
 .copyright {
   font-size: 1.5rem;

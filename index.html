@@ -309,21 +309,19 @@
       <div class="phone">
         <i class="fas fa-mobile-alt"></i>
         <h3>Phone</h3>
-        <p>02939 929 392</p>
-        <p>03434 434 232</p>
+        <p>+44 (0)7515 724 232</p>
       </div>
       <div class="email">
         <i class="fas fa-envelope"></i>
         <h3>Email</h3>
-        <p>info@email.com</p>
-        <p>sales@email.com</p>
+        <p>s.blease@planbeeconsulting.com</p>
       </div>
     </div>
     <h1>Contact me to discuss your business needs. Whether you require assistance by the day, half day or hour, it's about making it work for YOU</h1>
-    <form action="" class="contact-form">
-      <input type="text" placeholder="Your Name">
-      <input type="text" placeholder="Your Email">
-      <textarea name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
+    <form method="POST" name="contact" data-netlify="true" class="contact-form">
+      <input type="text" id="name" name="Name" placeholder="Your Name" required>
+      <input type="email" id="email" name="Email" placeholder="Your Email" required>
+      <textarea name="Subject" id="message" cols="30" rows="5" placeholder="Your Message"></textarea>
       <input type="submit" value="Send Message">
     </form>
   </div>
@@ -331,20 +329,10 @@
 <!--** End of Section 5 **-->
 
 <footer class="footer">
-  <!-- <div class="footer-nav">
-    <a href="#home">Home</a>
-    <a href="#aboutPlanBee">About Plan Bee</a>
-    <a href="#aboutMe">About Me</a>
-    <a href="#testimonials">Testimonials</a>
-    <a href="#contact">Contact</a>
-  </div> -->
   <p class="copyright">
     Copyright &copy; Plan Bee 2021
   </p>
 </footer>
-
-
-
 
 </div>
 <script src="script.js"></script> 
