@@ -105,11 +105,18 @@ body {
 }
 
 .nav-link {
-  font-size: 4rem;
+  font-size: 2rem;
   color: #fff;
-  /* color: #aaa9ad; */
+  color: #aaa9ad;
   margin: 2rem 0;
 }
+
+@media (min-width: 576px) {
+  .nav-link {
+    font-size: 4rem;
+  }
+}
+
 
 .nav-link:hover {
   color: #dc9778;
