@@ -533,6 +533,156 @@ body {
   }
 }
 
+/* RESPONSIVE */
+/** Hex 150 **/
+@media (max-width: 768px) {
+  .hexagon1 {
+    width: 150px; 
+    height: 86.60px;
+    margin: 43.30px 0;
+  }
+
+  .hexagon1:before,
+  .hexagon1:after {
+    width: 106.07px;
+    height: 106.07px;
+    left: 18.9670px;
+  }
+
+  .hexagon1:before {
+    top: -53.0330px;
+  }
+  
+  .hexagon1:after {
+    bottom: -53.0330px;
+  }
+
+  .hexagon1 span {
+    top: 1.7320508075688772px;
+    left: 0;
+    width: 144px;
+    height: 83.1384px;
+    font-size: 1.4rem;
+  }
+
+  .hexagon2 {
+    width: 150px; 
+    height: 86.60px;
+    margin: 43.30px 0;
+  }
+
+  .hexagon2:before,
+  .hexagon2:after {
+    width: 106.07px;
+    height: 106.07px;
+    left: 18.9670px;
+  }
+
+  .hexagon2:before {
+    top: -53.0330px;
+  }
+  
+  .hexagon2:after {
+    bottom: -53.0330px;
+  }
+
+  .hexagon2 span {
+    top: 1.7320508075688772px;
+    left: 0;
+    width: 144px;
+    height: 83.1384px;
+    font-size: 1.4rem;
+  }
+
+  .hexagon3 {
+    width: 150px; 
+    height: 86.60px;
+    margin: 43.30px 0;
+  }
+
+  .hexagon3:before,
+  .hexagon3:after {
+    width: 106.07px;
+    height: 106.07px;
+    left: 18.9670px;
+  }
+
+  .hexagon3:before {
+    top: -53.0330px;
+  }
+  
+  .hexagon3:after {
+    bottom: -53.0330px;
+  }
+
+  .hexagon3 span {
+    top: 1.7320508075688772px;
+    left: 0;
+    width: 144px;
+    height: 83.1384px;
+    font-size: 1.4rem;
+  }
+
+  .hexagon4 {
+    width: 150px; 
+    height: 86.60px;
+    margin: 43.30px 0;
+  }
+
+  .hexagon4:before,
+  .hexagon4:after {
+    width: 106.07px;
+    height: 106.07px;
+    left: 18.9670px;
+  }
+
+  .hexagon4:before {
+    top: -53.0330px;
+  }
+  
+  .hexagon4:after {
+    bottom: -53.0330px;
+  }
+
+  .hexagon4 span {
+    top: 1.7320508075688772px;
+    left: 0;
+    width: 144px;
+    height: 83.1384px;
+    font-size: 1.4rem;
+  }
+
+  .hexagon5 {
+    width: 150px; 
+    height: 86.60px;
+    margin: 43.30px 0;
+  }
+
+  .hexagon5:before,
+  .hexagon5:after {
+    width: 106.07px;
+    height: 106.07px;
+    left: 18.9670px;
+  }
+
+  .hexagon5:before {
+    top: -53.0330px;
+  }
+  
+  .hexagon5:after {
+    bottom: -53.0330px;
+  }
+
+  .hexagon5 span {
+    top: 1.7320508075688772px;
+    left: 0;
+    width: 144px;
+    height: 83.1384px;
+    font-size: 1.4rem;
+  }
+}
+/* END OF RESPONSIVE */
+
 
 
 /** Shining Text Animation **/
@@ -984,15 +1134,10 @@ opacity: 1;
 /** Section 5 - Contact **/
 .section-5 {
   width: 100%;
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 3rem;
-}
-
-.section-5 h1 {
-  font-size: 3rem;
 }
 
 .contact-wrapper {
@@ -1013,8 +1158,6 @@ opacity: 1;
   margin: 1rem;
 }
 
-
-
 .contact-details i {
   font-size: 5rem;
   color: #dc9778;
@@ -1030,8 +1173,6 @@ opacity: 1;
   font-size: 1.5rem;
   color: #aaa9ad;
 }
-
-
 
 .contact-paragraph {
   font-size: 1.8rem;
@@ -1088,9 +1229,6 @@ opacity: 1;
   .contact-form {
     width: 50rem;
   }
-  .contact-wrapper h1 {
-    font-size: 2.5rem;
-  }
 }
 
 @media (min-width: 768px) {
@@ -1110,12 +1248,9 @@ opacity: 1;
   .contact-details p {
     font-size: 1.8rem;
   }
-  
+
   .contact-form {
     width: 60rem;
-  }
-  .contact-wrapper h1 {
-    font-size: 1.8rem;
   }
 }
 
