@@ -680,7 +680,23 @@ body {
     height: 83.1384px;
     font-size: 1.4rem;
   }
+
+  .heading-1 img {
+    height: 85px;
+    width: 75px;
+  }
+
+  .heading-2 img {
+    height: 80px;
+    width: 141px;
+  }
+
+  #strapline {
+    font-size: 1.5em;
+  }
 }
+
+
 /* END OF RESPONSIVE */
 
 
