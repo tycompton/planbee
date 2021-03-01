@@ -1010,8 +1010,10 @@ opacity: 1;
 .contact-details div {
   width: 15rem;
   text-align: center;
-  margin: 4rem;
+  margin: 1rem;
 }
+
+
 
 .contact-details i {
   font-size: 5rem;
@@ -1025,9 +1027,11 @@ opacity: 1;
 }
 
 .contact-details p {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #aaa9ad;
 }
+
+
 
 .contact-paragraph {
   font-size: 1.8rem;
