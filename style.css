@@ -536,6 +536,7 @@ body {
 /* RESPONSIVE */
 /** Hex 150 **/
 @media (max-width: 768px) {
+
   .hexagon1 {
     width: 150px; 
     height: 86.60px;
@@ -690,11 +691,9 @@ body {
     height: 80px;
     width: 141px;
   }
-
-  #strapline {
-    font-size: 1.5em;
-  }
 }
+
+
 
 
 /* END OF RESPONSIVE */
@@ -744,6 +743,19 @@ body {
   }
 }
 /** Shining Text Animation End **/
+
+
+/** RESPONSIVE **/
+@media (max-width: 768px) {
+  #strapline {
+    font-size: 1.8em;
+  }
+
+  #strapline2 {
+    font-size: 1.8em;
+  }
+}
+/** RESPONSIVE END **/
 
 /** End of Section 1 **/
 
