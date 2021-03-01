@@ -988,7 +988,7 @@ opacity: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 10rem;
+  padding: 0 3rem;
 }
 
 .section-5 h1 {
@@ -1029,7 +1029,7 @@ opacity: 1;
   color: #aaa9ad;
 }
 
-.contact-wrapper h1 {
+.contact-paragraph {
   font-size: 1.8rem;
   color: #aaa9ad;
   text-align: center;
@@ -1070,10 +1070,16 @@ opacity: 1;
   background-color: #ff7f4f;
 }
 
+/** Responsive **/
+
 @media (min-width: 576px) {
-  .section-5 h1 {
-    font-size: 5.8rem;
+  .section-5 {
+    padding: 5rem;
   }
+
+  /* .contact-paragraph {
+    font-size: 5.8rem;
+  } */
 
   .contact-details div {
     width: 15rem;
@@ -1088,8 +1094,12 @@ opacity: 1;
 }
 
 @media (min-width: 768px) {
-  .section-5 h1 {
-    font-size: 8rem;
+  .section-5 {
+    padding: 7rem;
+  }
+
+  .contact-paragraph {
+    font-size: 2.5rem;
   }
 
   .contact-details div {
@@ -1105,6 +1115,10 @@ opacity: 1;
 }
 
 @media (min-width: 992px) {
+  .section-5 {
+    padding: 10rem;
+  }
+
   .contact-details div {
     width: 25rem;
   }
