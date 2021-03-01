@@ -130,7 +130,6 @@ body {
   font-size: 4rem;
   font-weight: bold;
   text-transform: uppercase;
-  /* color: #b76379; */
   color: #dc9778;
   text-align: center;
   opacity: 1;
@@ -353,7 +352,6 @@ body {
   height:172.0504px;
   z-index: 2;
   background: inherit;
-  /* color: #fff; */
   color: #dc9778;
   width: 100%;
   display: flex;
@@ -596,32 +594,32 @@ body {
   }
 
   .hexagon3 {
-    width: 150px; 
-    height: 86.60px;
-    margin: 43.30px 0;
+    width: 200px; 
+    height: 115.47px;
+    margin: 57.74px 0;
   }
-
+  
   .hexagon3:before,
   .hexagon3:after {
-    width: 106.07px;
-    height: 106.07px;
-    left: 18.9670px;
+    width: 141.42px;
+    height: 141.42px;
+    left: 26.2893px;
   }
-
+  
   .hexagon3:before {
-    top: -53.0330px;
+    top: -70.7107px;
   }
   
   .hexagon3:after {
-    bottom: -53.0330px;
+    bottom: -70.7107px;
   }
-
+  
   .hexagon3 span {
-    top: 1.7320508075688772px;
+    top:1.7320508075688772px;
     left: 0;
-    width: 144px;
-    height: 83.1384px;
-    font-size: 1.4rem;
+    width:194px;
+    height:112.0060px;
+    font-size: 1.6rem;
   }
 
   .hexagon4 {
@@ -683,21 +681,16 @@ body {
   }
 
   .heading-1 img {
-    height: 85px;
-    width: 75px;
+    height: 120px;
+    width: 105px;
   }
 
   .heading-2 img {
-    height: 80px;
-    width: 141px;
+    height: 106px;
+    width: 190px;
   }
 }
-
-
-
-
 /* END OF RESPONSIVE */
-
 
 
 /** Shining Text Animation **/
@@ -748,11 +741,11 @@ body {
 /** RESPONSIVE **/
 @media (max-width: 768px) {
   #strapline {
-    font-size: 1.8em;
+    font-size: 2em;
   }
 
   #strapline2 {
-    font-size: 1.8em;
+    font-size: 2em;
   }
 }
 /** RESPONSIVE END **/
