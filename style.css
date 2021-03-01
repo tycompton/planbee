@@ -1081,12 +1081,8 @@ opacity: 1;
     padding: 5rem;
   }
 
-  /* .contact-paragraph {
-    font-size: 5.8rem;
-  } */
-
   .contact-details div {
-    width: 15rem;
+    margin: 2rem;
   }
 
   .contact-form {
@@ -1108,8 +1104,13 @@ opacity: 1;
 
   .contact-details div {
     width: 18rem;
+    margin: 4rem;
   }
 
+  .contact-details p {
+    font-size: 1.8rem;
+  }
+  
   .contact-form {
     width: 60rem;
   }
