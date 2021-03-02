@@ -10,5 +10,6 @@ menu.addEventListener('click', () => {
 
 navlist.addEventListener('click', () => {
     navbar.classList.toggle('change')
+    menu.classList.toggle('change')
   }
 )
