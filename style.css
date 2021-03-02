@@ -23,7 +23,7 @@ body {
 .navbar {
   color: #fff;
   width: 100%;
-  height: 8rem;
+  height: 7rem;
   background-color: rgba(0, 0, 0, 0.9);
   position: fixed;
   top: -8rem;
@@ -154,7 +154,7 @@ body {
 .section-1 {
   width: 100%;
   margin: 0 auto;
-  padding: 5rem 0;
+  /* padding: 5rem 0; */
 }
 
 .rowTop {
@@ -995,7 +995,7 @@ opacity: 1;
 /** Section 3 - About Me **/
 .section-3 {
   width: 100%;
-  padding: 7rem 0;
+  padding: 5rem 0;
 }
 
 .flexWrap {
@@ -1051,8 +1051,8 @@ opacity: 1;
 .section-4 {
   width: 100%;
   /* height: 75vh; */
-  /* padding: 5rem 0; */
-  padding: 7rem 0;
+  padding: 5rem 0;
+  /* padding: 7rem 0; */
 }
 
 .testimonials {
