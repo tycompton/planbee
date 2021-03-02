@@ -112,6 +112,7 @@ body {
   margin: 2rem 0;
 }
 
+
 @media (min-width: 576px) {
   .nav-link {
     font-size: 4rem;
