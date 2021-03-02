@@ -23,7 +23,7 @@ body {
 .navbar {
   color: #fff;
   width: 100%;
-  height: 7rem;
+  height: 8rem;
   background-color: rgba(0, 0, 0, 0.9);
   position: fixed;
   top: -8rem;
@@ -1159,7 +1159,7 @@ opacity: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 3rem;
+  padding: 8rem 0;
 }
 
 .contact-wrapper {
