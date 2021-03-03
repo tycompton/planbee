@@ -995,7 +995,7 @@ opacity: 1;
 /** Section 3 - About Me **/
 .section-3 {
   width: 100%;
-  padding: 5rem 0;
+  padding: 7rem 0;
 }
 
 .flexWrap {
@@ -1050,9 +1050,7 @@ opacity: 1;
 /** Section 4 - Testimonials Section **/
 .section-4 {
   width: 100%;
-  /* height: 75vh; */
-  padding: 5rem 0;
-  /* padding: 7rem 0; */
+  padding: 7rem 0;
 }
 
 .testimonials {
@@ -1300,7 +1298,6 @@ opacity: 1;
   background-color: #000;
   display: flex;
   flex-direction: column-reverse;
-  /* justify-content: space-between; */
   justify-content: space-evenly;
   align-items: center;
   padding: 0 10rem;
